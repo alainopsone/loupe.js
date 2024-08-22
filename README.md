@@ -125,12 +125,3 @@ Here is a basic example to see the package in action:
 ## License
 
 This package is open-source and available under the [MIT License](LICENSE).
-
-```
-
-### Explication des sections
-
-- **Installation** : Fournit les instructions pour installer le package via npm.
-- **Usage** : Guide l'utilisateur étape par étape pour intégrer et utiliser le package dans son projet.
-- **Example** : Donne un exemple concret d'intégration dans un projet HTML.
-- **License** : Indique le type de licence sous lequel le package est distribué.
