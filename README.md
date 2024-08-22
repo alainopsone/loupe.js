@@ -1,4 +1,8 @@
 ```markdown
+# Live Example
+
+https://alainopsone.github.io/loupe.js/
+
 # Magnifier Package
 
 A simple JavaScript package that provides a magnifier effect for images. This package allows you to zoom in on images with a customizable magnifier and lens element.
