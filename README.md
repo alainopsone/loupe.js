@@ -28,10 +28,10 @@ import Loupe from '@alain_tran/loupejs';
 Ensure that your HTML contains the necessary elements with appropriate `data-target` attributes:
 
 ```html
-<div style="position: relative;">
-  <img src="path-to-your-image.jpg" data-target="image" alt="Zoomable Image" style="width: 100%; height: auto;">
-  <div data-target="magnifier" class="opacity-0" style="position: absolute; width: 100px; height: 100px; pointer-events: none;"></div>
-  <div data-target="lens" class="opacity-0" style="position: absolute; width: 50px; height: 50px; border: 2px solid #000;"></div>
+<div class="relative w-96 h-96 cursor-none">
+  <img src="/path-to-background-image.jpg" alt="Image à zoomer" data-target="image" class="w-full h-full object-cover">
+  <div class="z-10 absolute inset-0 w-full h-full opacity-0 bg-no-repeat pointer-events-none transition-opacity duration-300" data-target="magnifier"></div>
+  <div class="z-20 absolute w-20 h-20 opacity-0 bg-white/60 transition-opacity duration-300 pointer-events-none" data-target="lens"></div>
 </div>
 ```
 
@@ -136,5 +136,3 @@ This package is open-source and available under the [MIT License](LICENSE).
 - **Usage** : Guide l'utilisateur étape par étape pour intégrer et utiliser le package dans son projet.
 - **Example** : Donne un exemple concret d'intégration dans un projet HTML.
 - **License** : Indique le type de licence sous lequel le package est distribué.
-
-N'oubliez pas de remplacer `"your-image.jpg"` par le chemin réel de l'image que vous utilisez dans votre projet.
