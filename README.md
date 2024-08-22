@@ -1,5 +1,3 @@
-Voici un fichier `README.md` en anglais qui explique étape par étape comment utiliser le code en tant que package NPM :
-
 ```markdown
 # Magnifier Package
 
