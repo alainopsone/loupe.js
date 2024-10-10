@@ -1,16 +1,4 @@
 ```markdown
-# Magnifier Package
-
-A simple JavaScript package that provides a magnifier effect for images. This package allows you to zoom in on images with a customizable magnifier and lens element.
-
-## Installation
-
-You can install the package using npm:
-
-```bash
-npm install @alain_tran/loupejs
-```
-
 ## Usage
 
 ### Step 1: Import the Loupe
