@@ -94,8 +94,6 @@ Here is a basic example to see the package in action:
   </div>
 
   <script type="module">
-    import Loupe from '@alain_tran/loupejs';
-
     document.addEventListener('DOMContentLoaded', () => {
       const imageElement = document.querySelector('[data-target="image"]');
       const magnifierElement = document.querySelector('[data-target="magnifier"]');
