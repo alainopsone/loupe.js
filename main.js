@@ -110,3 +110,5 @@ export default class Loupe {
 		this.removeEventListeners()
 	}
 }
+
+new Loupe({ zoomLevel: 5 })
